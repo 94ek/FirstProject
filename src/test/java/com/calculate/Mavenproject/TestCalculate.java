@@ -34,7 +34,7 @@ public class TestCalculate {
 		assertEquals(2, c.sum(1, 1), 0);
 	    assertEquals(2, c.sum(3, -1), 0);
 	    //assertEquals(1.42, c.sum(3.14, -1.72), 0.001);
-	   // assertEquals(2.0/3, c.sum(1.0/3, 1.0/3), 0.001);
+	   //assertEquals(2.0/3, c.sum(1.0/3, 1.0/3), 0.001);
 	}
 
 	@Test
@@ -42,8 +42,8 @@ public class TestCalculate {
 		assertEquals(0, c.substraction(1, 1), 0);
 		assertEquals(0, c.substraction(-1, -1), 0);
 		assertEquals(-2, c.substraction(-1, 1), 0);
-	  //  assertEquals(4.86, c.substraction(3.14, -1.72), 0.001);
-	   // assertEquals(2.0/3, c.substraction(1.0/3, -1.0/3), 0.001);
+	  //assertEquals(4.86, c.substraction(3.14, -1.72), 0.001);
+	   //assertEquals(2.0/3, c.substraction(1.0/3, -1.0/3), 0.001);
 	}
 
 	@Test
